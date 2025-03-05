@@ -1,7 +1,7 @@
-# **How to calculate opponent's pure possession time in Wyscout**
+# Calculate opponent's pure possession time using Wyscout data
 <hr>
 
-<p style="line-height: 1.5; font-size: 16px;">I was reading the Wyscout Glossary and I came across Possession Adjusted. It's not like I didn't already know that the defensive metrics “per 90 minutes” was wrong and incomplete, but then another light went on in my head. The source of this light was the following sentences:<br><br><em>In the match of AFC Bournemouth - Manchester City (0:1, 2 March 2019) Man City had had 80% of possession (42:37 pure possession time), while Bournemouth only had 20% (10:35 pure possession time).<br>Aké, who played the whole match for Bournemouth, had 10 interceptions. His PAdj interceptions value would be: 10 / 42.5 * 30 = 7.06</em><br><br>There was the formula. Math doesn't lie. In the Wyscout Advance Search, both the interceptions p90 and padj interceptions were listed. Then it was just a matter of doing the math.</p>
+
 
 <p style="font-size: 16px;">
   <strong>(Interception p90)</strong> / <strong>(Opp Poss Time)</strong> * 30 = <strong>(Padj Interception)</strong>
